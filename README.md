@@ -1,5 +1,5 @@
 # NeoObscura
-See the [project website](tnnsbeast.github.io/NeoObscura/) for an overview of the project.
+See the [project website](https://tnnsbeast.github.io/NeoObscura/) for an overview of the project.
 
 ## GitHub Structure
 
