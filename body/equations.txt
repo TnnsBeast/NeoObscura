@@ -1,0 +1,11 @@
+"PCB_Width" = 4.42in
+"PCB_Height" = 3in
+"PCB_Hole_Diameter" = 0.12in
+"Sensor_Width"= 0.07in * 40
+"Sensor_Height"= 0.07in * 30
+"Hole_Horizontal_Offset"= 0.17in
+"Hole_Vertical_Offset"= 0.15in
+"PCB_Thickness"= 1.6mm
+"M3_Insert_D3" = 4mm
+
+"M3_Insert_L" = 5.7mm
