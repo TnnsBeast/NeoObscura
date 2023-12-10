@@ -7,7 +7,7 @@ exclude: true
 
 # Project Abstract
 
-NeoObscura is a fully functional camera sensor with on-device image compression built from scratch using an array of 1,200 phototransistors. The MCU reads data from the sensor array, one phototransistor at a time. Once a full image is read, it is sent to the FPGA over SPI to be compressed. The compressed image is sent back to the MCU which will sends over UART to a laptop which interprets and displays the image.
+NeoObscura is a fully functional camera sensor with on-device image compression built from scratch using an array of 1,200 phototransistors. The MCU reads data from the sensor array, one phototransistor at a time. Once a full image is read, it is sent to the FPGA over SPI to be compressed. The compressed image is sent back to the MCU, which sends the data over UART to a laptop which interprets and displays the image.
 
 <p align="center">
     <iframe width="262" height="467" src="https://www.youtube.com/embed/lJYW2ZMiyLE" title="NeoObscura: A completely from scratch image sensor with QOI Compression" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

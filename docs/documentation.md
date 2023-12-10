@@ -9,7 +9,7 @@ The main new piece of hardware we're using is a custom designed image sensor (pi
 
 ![Camera Sensor]({{ site.baseurl }}/assets/img/sensor.png)
 
-The sensor PCB contains a 30x40 array of 1200 phototransistors along with a 32:1 analog mux (used for selecting rows) and two mezzanine connectors (50 pins each) for communication. The sensor is connected to a breadboard with a 48:1 analog mux (used for selecting columns). The analog muxes (controlled by the MCU) are used to select a single phototransistor to read from by applying voltage to the corresponding column and reading the output voltage from the corresponding row. The phototransistor is setup in a common collector configuration with a XX k resistor between the emitter and ground.
+The sensor PCB contains a 30x40 array of 1200 phototransistors along with a 32:1 analog mux (used for selecting rows) and two mezzanine connectors (50 pins each) for communication. The sensor is connected to a breadboard with a 48:1 analog mux (used for selecting columns). The analog muxes (controlled by the MCU) are used to select a single phototransistor to read from by applying voltage to the corresponding column and reading the output voltage from the corresponding row. The phototransistor is setup in a common collector configuration with a varying value resistor between the emitter and ground to control the sensitivity of the sensor.
 <!-- TODO: enter correct resistor value -->
 
 
