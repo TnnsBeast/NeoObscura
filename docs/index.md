@@ -20,26 +20,28 @@ Nearly everyone carries around a smartphone capable of taking high resolution ph
 ![Schematic of system 2](./assets/diagrams/system.png)
 
 # Table of Contents
-#### [MCU Design]({{ site.baseurl }}/mcu_design/)
+#### [Documentation]({{ site.baseurl }}/doc/)
 
-Explanation of everything the MCU does: reading data from the sensor, image processing, interfacing with the FPGA QOI compression accelerator, sending data to the laptop.
+Useful pieces of documentation including: schematics, the BOM, references, and sources of inspiration.
 
 #### [FPGA Design]({{ site.baseurl }}/fpga_design/)
 
 Explanation of QOI Hardware accelerator implementation.
 
+#### [MCU Design]({{ site.baseurl }}/mcu_design/)
+
+Explanation of everything the MCU does: reading data from the sensor, image processing, interfacing with the FPGA QOI compression accelerator, sending data to the laptop.
+
 #### [Results]({{ site.baseurl }}/results/)
 
 Summary of the core results of our project.
 
-#### [Documentation]({{ site.baseurl }}/doc/)
+#### [Media]({{ site.baseurl }}/media/)
 
-Useful pieces of documentation including: schematics, the BOM, references, and sources of inspiration.
+Images and videos showing our project in action
 
 #### [Team]({{ site.baseurl }}/team/)
 
 Who we are
 
-#### [Media]({{ site.baseurl }}/media/)
 
-Images and videos showing our project in action
