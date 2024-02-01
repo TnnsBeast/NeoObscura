@@ -14,7 +14,7 @@ Our camera sensor meets all the specifications we set out for ourselves at the b
 
 We created a working 30x40 pixel sensor that outputs 8 bit, full color images at around 1.2 FPS. The limiting factor in our FPS is the serial baudrate of 921,600. With a maximum ADC sampling speed of 5.33 Msps and 1200 samples per frame, our theoretical maximum is 4442 FPS. In practice (taking into account switching delays, CPU computation time, etc.) we achieve a sampling rate of 52 ksps resulting in 43.5 FPS (if we don't account for USART transmission time).
 
-Accounting for USART transmission time (assuming an average compressed image size of 2,500 bytes) we 1.5 FPS.
+Accounting for USART transmission time (assuming an average compressed image size of 2,500 bytes) we see around 1.5 FPS.
 
 <!-- 
 One frame takes 23 ms = 0.023 s
